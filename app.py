@@ -5,7 +5,7 @@ import joblib
 # Load your trained machine learning model from a .sav file
 classifier = joblib.load('model.sav')
 
-st.title("Diabetes Prediction Using Machine Learning")
+st.title("Patient Diabetes Prediction")
 
 st.write("Enter the following information:")
 
